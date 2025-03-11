@@ -12,7 +12,14 @@ Essa funcao possui uma condicional if que verifica se a caixa foi preenchida, re
 
 A funcao atualizarLista() cria uma variável (lista) e atualiza a array adicionando um item, associada com a funcao removerAmigo() que utila splice para remover o item pelo índice  e após isso chama novamente a funcao de atualizacao da lista.
 
-Por fim, funcao sortearAmigo() possui uma condicional onde verifica se a listas está vazia ou possui itens retornando um alert caso nenhum amigo tenha sido adicionado. Quando há pelo menos um item na lista, utiliza o math.random para sortear um item da array, e o Math.floor para arredondar o número flutuante para um número inteiro.
+Por fim, funcao sortearAmigo() possui uma condicional onde verifica se a listas está vazia ou possui itens retornando um alert caso nenhum amigo tenha sido adicionado. Quando há pelo menos um item na lista, utiliza o math.random para sortear um item da array, e o Math.floor para arredondar o número flutuante para um número inteiro, que sorteia um dos itens da lista.
+
+![Screenshot 2025-03-11 111659](https://github.com/user-attachments/assets/a5fdb927-420e-4cea-a23c-362c3c705d68)
+
+
+
+
+
 ﻿<h1 align="center">📁 Acesso ao projeto</h1>
 Voce pode acessar o projeto pelo VS CODE.
 
@@ -21,8 +28,6 @@ Voce pode acessar o projeto pelo VS CODE.
 3 - Com o VS code aberto siga o passo a passo de Arquivo >  Abrir pasta > Escolha a pasta que extraiu o zip.
 
 Caso deseje apenas ver o resultado, confira no link de deploy abaixo: 
-
-
 
 
  
