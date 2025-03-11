@@ -29,6 +29,8 @@ Voce pode acessar o projeto pelo VS CODE.
 
 Caso deseje apenas ver o resultado, confira no link de deploy abaixo: 
 
+https://amigosecreto-dun.vercel.app/
+
 
  
 ﻿<h1 align="center">Autor</h1>
