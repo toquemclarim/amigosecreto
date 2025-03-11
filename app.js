@@ -3,7 +3,7 @@ let amigos = [];
 
 // Função para adicionar um amigo à lista
 function adicionarAmigo() {
-    let nome = document.getElementById("amigo").value.trim(); // Captura e remove espaços extras
+    let nome = document.getElementById("amigo").value.trim(); 
 
     if (nome) { // Verifica se o campo não está vazio
         amigos.push(nome); // Adiciona ao array
@@ -39,3 +39,14 @@ function removerAmigo(index) {
     amigos.splice(index, 1); // Remove o amigo pelo índice
     atualizarLista(); // Atualiza a lista na tela
 }
+
+// Funcao de sorteio
+function sortearAmigo() {
+    if (amigos.length > 0) {
+        const sorteado = amigos[Math.floor(Math.random() * amigos.length)];
+        document.getElementById("resultado").innerHTML = `O amigo sorteado foi: <strong>${sorteado}</strong>`;
+    } else {
+        alert('A lista de amigos está vazia. Adicione pelo menos um amigo para o sorteio.');
+    }
+}
+
